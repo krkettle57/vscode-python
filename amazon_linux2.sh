@@ -1,5 +1,7 @@
 #!/bin/bash -Ceu
 
+# Python3.8.xにする場合、pyproject.tomlの
+# [tool.poetry.dependencies]を適切なバージョンに変更する必要があります
 PYTHON_VERSION=${1:-"3.8.7"}
 
 sudo yum update -y
